@@ -87,6 +87,21 @@ ol li{
   position: absolute;
   bottom: 40px;
 }
+
+.App{
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+h1{
+  color: white;
+  background:transparent;
+  background-color: #08b857;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  
+}
 input{
   text-align: center;
   height: 30px;
@@ -108,4 +123,8 @@ button {
   border-radius: 5px;
   border: none;
   width: 80px;
+}
+
+button:hover{
+  background:rgb(11, 60, 109) ;
 }
